@@ -8,10 +8,6 @@ body {
     flex-direction: column;
 }
 
-div {
-    border: solid black 1px;
-}
-
 .elev {
     display: flex;
     height: 50%;
@@ -38,6 +34,9 @@ div {
 }
 
 .project-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 50%;
     padding: 30px;
 }
@@ -67,7 +66,5 @@ div {
     #header {
         font-size: 3rem;
     }
-
-
 
   }
