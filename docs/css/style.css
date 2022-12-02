@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: aliceblue;
+    background-color: #E4EBF5;
 }
 
 #flex-container {
@@ -42,7 +42,6 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-
     .elev {
         display: flex;
         flex-wrap: wrap;
@@ -50,21 +49,38 @@ body {
         padding: 10px;
         margin: 0;
     }
-
     .image-holder {
         width: 100%;
         text-align: center;
         padding: 10px;
         height: 100%;
     }
-
     .project-intro {
         width: 100%;
         padding: 10px;
     }
-
     #header {
         font-size: 3rem;
     }
+}
 
-  }
+.fontColor {
+    font-family: "Lexend Deca", sans-serif;
+    color: #626d89;
+    flex-direction: column;
+}
+
+a {
+    font-family: "Lexend Deca", sans-serif;
+    color: #5f7cc0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #4d608c;
+}
