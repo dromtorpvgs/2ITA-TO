@@ -112,7 +112,7 @@ input[type="checkbox"]+label .bar {
 input[type="checkbox"]:checked+label .bar {
     background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
     /* margin-left: auto; */
-    transform: translateX(70px);
+    transform: translateX(60px);
 }
 
 label:active .bar {
