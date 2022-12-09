@@ -33,6 +33,29 @@ body {
     width: 50%;
 }
 
+/*Redin sin territorium, Ikke endre!!!*/
+#Ikke-endre {
+  animation: Redin 3s infinite;
+  font-size: 20px;
+}
+@keyframes Redin {
+  from {color: red;}
+  10% {color: green;}
+  20% {color: blue;}
+  30% {color: orange;}
+  40% {color: purple;}
+  50% {color: aqua;}
+  60% {color: lightyellow;}
+  70% {color: lightblue;}
+  80% {color: lightgreen;}
+  90% {color: pink;}
+  100% {color: red;}
+}
+#size {
+  font-size: 25px;
+}
+/*Redin sin territorium, Ikke endre!!!*/
+
 .project-intro {
     display: flex;
     align-items: center;
