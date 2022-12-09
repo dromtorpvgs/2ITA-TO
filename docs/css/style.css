@@ -54,6 +54,9 @@ body {
 #size {
   font-size: 25px;
 }
+#flex {
+  flex-direction: column;
+}
 /*Redin sin territorium, Ikke endre!!!*/
 
 .project-intro {
