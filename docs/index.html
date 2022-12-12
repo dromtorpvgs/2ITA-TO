@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" id="themelightdark">
-    <link rel="stylesheet" href="css/search.css">
     <title>2ITA - TO</title>
 </head>
 
@@ -21,7 +20,7 @@
               </div>
             </label>
         </div>
-        
+
         <div id="search">
             <form action="Javascript:søk();" method="post" autocomplete="off">
                 <div class="autocomplete" style="width: 300px;">
@@ -53,7 +52,7 @@
         </div>
 
         <div class="elev" id="peder">
-            <div class="image-holder" >
+            <div class="image-holder">
                 <img src="images/peder/peder0.svg" alt="Bilde av Peder" id="pdimg">
                 <figcaption>Peder Vatn Austad - 2ITA</figcaption>
             </div>
@@ -61,7 +60,10 @@
                 Jeg har laget et sant eller usant spill... ja det er det...<br> Det er en modus for å lære og en for å spille. På læremodusen så får du fakta etter hvært spørsmål. og spillsiden så går det på tid.
                 <a href="https://feilinfo.pigw.in/" style="font-size: 5vh;">spill det her</a>
             </div>
-            <script>console.log('%cVelkomen til console!', 'background-image: linear-gradient(to right, red,orange,yellow); color: #ffffff; -webkit-text-stroke: 0.2vh #000000; font-size: 5vh;'); document.getElementById('pdimg').outerHTML = '<img src="images/peder/peder' + Math.floor(Math.random() * 5) + '.svg" alt="Bilde av Peder" id="pdimg">';</script>
+            <script>
+                console.log('%cVelkomen til console!', 'background-image: linear-gradient(to right, red,orange,yellow); color: #ffffff; -webkit-text-stroke: 0.2vh #000000; font-size: 5vh;');
+                document.getElementById('pdimg').outerHTML = '<img src="images/peder/peder' + Math.floor(Math.random() * 5) + '.svg" alt="Bilde av Peder" id="pdimg">';
+            </script>
         </div>
 
         <div class="elev" id="elliot">
@@ -106,13 +108,14 @@
             </div>
         </div>
 
-          <div class="elev" id="mathias">
+        <div class="elev" id="mathias">
             <div class="image-holder">
                 <img src="images/Mathias.jpeg" alt="Bilde av Mathias">
                 <figcaption>Mathias Aasbakken - 2ITA</figcaption>
             </div>
             <div class="project-intro fontColor">
-                <center>.•°-------------------------✿-------------------------°•.<br><br>Lager et byggespill, en versjon av tetris. Dette spillet er laget i Scratch.<br>Målet med spillet er å oppnå så høy score så mulig ved å plassere så mange brikker du kan uten at den går helt opp til taket <br><br> da er du ute av spillet og må spille på nytt.<br><br> Lykke til!<br><br>°•.-------------------------✿-------------------------.•°</center><br><br>
+                <center>.•°-------------------------✿-------------------------°•.<br><br>Lager et byggespill, en versjon av tetris. Dette spillet er laget i Scratch.<br>Målet med spillet er å oppnå så høy score så mulig ved å plassere så mange brikker du kan
+                    uten at den går helt opp til taket <br><br> da er du ute av spillet og må spille på nytt.<br><br> Lykke til!<br><br>°•.-------------------------✿-------------------------.•°</center><br><br>
             </div>
         </div>
 
@@ -122,23 +125,22 @@
                 <figcaption>Marcus Knutsen - 2ITA</figcaption>
             </div>
             <div class="project-intro">
-                Lager en versjon av tetris.
-                Follow me on https://scratch.mit.edu/users/snakeMax/ and play my new AAA release KUNG FU MANDAG! dududududu bom pow badududu. Shout out to my ninja Dj Khaled "Hey we da best!"
+                Lager en versjon av tetris. Follow me on https://scratch.mit.edu/users/snakeMax/ and play my new AAA release KUNG FU MANDAG! dududududu bom pow badududu. Shout out to my ninja Dj Khaled "Hey we da best!"
             </div>
         </div>
 
         <div class="elev" id="redin">
-          <div class="image-holder">
-              <img src="images/Redin.png" alt="Bile av Redin">
-              <figcaption> Redin Omar - 2ITA </figcaption>
-              <figcaption id="Ikke-endre"> CEO of Drømtorp Videregående Skole </figcaption>
-              <figcaption id="Ikke-endre"> Discord Mod (VIP) </figcaption>
-              <figcaption id="Ikke-endre"> Redditor (VIP) </figcaption>
-          </div>
-          <div class="project-intro" id="flex">
-            <p> Jeg har laget et spill basert på quiz og poenget med spillet er å lære noe ut av temaet </p>
-            <a href="https://redinomar.github.io/Skole_Oppgaver_Redin/" id="size"> Trykk her for å spille!!! </a>
-          </div>
+            <div class="image-holder">
+                <img src="images/Redin.png" alt="Bile av Redin">
+                <figcaption> Redin Omar - 2ITA </figcaption>
+                <figcaption id="Ikke-endre"> CEO of Drømtorp Videregående Skole </figcaption>
+                <figcaption id="Ikke-endre"> Discord Mod (VIP) </figcaption>
+                <figcaption id="Ikke-endre"> Redditor (VIP) </figcaption>
+            </div>
+            <div class="project-intro" id="flex">
+                <p> Jeg har laget et spill basert på quiz og poenget med spillet er å lære noe ut av temaet </p>
+                <a href="https://redinomar.github.io/Skole_Oppgaver_Redin/" id="size"> Trykk her for å spille!!! </a>
+            </div>
         </div>
 
         <div class="elev" id="casper" style="background-image: url(images/casper_bg.png);">
@@ -150,8 +152,7 @@
             </div>
             <div class="project-intro">
                 <p>
-                    Har laget en nettleserbasert skrivetest eller skriveøvelse. Det er bare å trykke: "PLAY NOW!"<br><br>
-                    PS: du kan endre språket til norsk i "Language", hvis du er usikker på hva ting betyr, men vit at testen bare fungerer på engelsk.
+                    Har laget en nettleserbasert skrivetest eller skriveøvelse. Det er bare å trykke: "PLAY NOW!"<br><br> PS: du kan endre språket til norsk i "Language", hvis du er usikker på hva ting betyr, men vit at testen bare fungerer på engelsk.
                 </p>
                 <a id="casper-spill" href="https://frumentummc.github.io/TypingPractice/"><img src="images/play_button.gif" alt="Start spill"></a>
             </div>
