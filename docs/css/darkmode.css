@@ -2,6 +2,7 @@ body {
     margin: 0;
     background-color: #20201e;
     color: #afafa7;
+    overflow-x: hidden;
 }
 
 #flex-container {
@@ -264,4 +265,14 @@ input[type=submit] {
 .autocomplete-active {
     background-color: #5865F2 !important;
     color: #ffffff;
+}
+
+.char {
+    position: absolute;
+    right: 0;
+    transition: right 2s;
+}
+
+.char.move {
+    right: 100%;
 }
