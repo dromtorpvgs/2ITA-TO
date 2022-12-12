@@ -268,11 +268,11 @@ input[type=submit] {
 }
 
 .char {
-    position: absolute;
-    right: 0;
+    position: fixed;
+    right: -100%;
     transition: right 2s;
 }
 
 .char.move {
-    right: 100%;
+    right: 0;
 }
