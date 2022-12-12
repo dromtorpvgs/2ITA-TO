@@ -72,10 +72,15 @@ function toggleTheme() {
 var chars = document.querySelectorAll('.char');
 
 // Calculate the maximum height for the images
-var maxHeight = window.innerHeight - 50;
+var maxHeight = window.innerHeight - 150;
 
 // Loop through each element
 chars.forEach(function(char) {
+    // Generate a random number between -100% and -300%
+    var randomRight = Math.random() * -200 - 100;
+
+    // Set the initial right position to the random number
+    char.style.right = randomRight + '%';
     // Generate a random number between 0 and the maximum height
     var randomHeight = Math.random() * maxHeight;
     // Set the initial right position to -100%
