@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" id="themelightdark">
+    <link rel="stylesheet" href="css/search.css">
     <title>2ITA - TO</title>
 </head>
 
@@ -20,11 +21,16 @@
               </div>
             </label>
         </div>
+        
+        <div id="search">
+            <form action="Javascript:søk();" method="post" autocomplete="off">
+                <div class="autocomplete" style="width: 300px;">
+                    <input type="text" name="searh" id="myInput" placeholder="Elev">
+                </div>
+                <input type="submit" value="Søk">
+            </form>
+        </div>
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 6492919b687e578ffec094f71c18ba17cb817e58
         <div class="elev" id="zander">
             <div class="image-holder">
                 <img src="images/zander.svg" alt="Bilde av Zander">
@@ -121,7 +127,7 @@
             </div>
         </div>
 
-        <div class="elev" id="Redin">
+        <div class="elev" id="redin">
           <div class="image-holder">
               <img src="images/Redin.png" alt="Bile av Redin">
               <figcaption> Redin Omar - 2ITA </figcaption>
@@ -154,6 +160,7 @@
         <div id="footer"></div>
     </div>
     <script src="js/script.js"></script>
+    <script src="js/search.js"></script>
 </body>
 
 </html>
