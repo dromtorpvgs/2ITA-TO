@@ -67,29 +67,3 @@ function toggleTheme() {
         darkmode()
     }
 }
-
-// Get all elements with the "char" class
-var chars = document.querySelectorAll('.char');
-
-// Calculate the maximum height for the images
-var maxHeight = window.innerHeight - 150;
-
-// Loop through each element
-chars.forEach(function(char) {
-    // Generate a random number between -100% and -300%
-    var randomRight = Math.random() * -200 - 100;
-
-    // Set the initial right position to the random number
-    char.style.right = randomRight + '%';
-    // Generate a random number between 0 and the maximum height
-    var randomHeight = Math.random() * maxHeight;
-    // Set the initial right position to -100%
-
-    // Set the initial right position to 0 and the top position to the random number
-    char.style.top = randomHeight + 'px';
-
-    // Use setInterval to move the element to the left over 2 seconds
-    setInterval(function() {
-        char.style.right = '100%';
-    }, 2000);
-});
