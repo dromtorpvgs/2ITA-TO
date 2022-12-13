@@ -40,6 +40,60 @@ body {
     width: 50%;
 }
 
+/*Marcus sin territorium, Ikke endre!!!*/
+
+#marcus {
+    animation: Marcus 3s infinite;
+    font-size: 20px;
+}
+
+@keyframes Marcus {
+    from {
+        color: red;
+    }
+    10% {
+        color: orange;
+    }
+    20% {
+        color: blue;
+    }
+    30% {
+        color: green;
+    }
+    40% {
+        color: purple;
+    }
+    50% {
+        color: red;
+    }
+    60% {
+        color: green;
+    }
+    70% {
+        color: blue;
+    }
+    80% {
+        color: orange;
+    }
+    90% {
+        color: pink;
+    }
+    100% {
+        color: red;
+    }
+}
+
+#size {
+    font-size: 25px;
+}
+
+#flex {
+    flex-direction: column;
+}
+
+
+/*Marcus sin territorium, Ikke endre!!!*/
+
 
 /*Redin sin territorium, Ikke endre!!!*/
 
