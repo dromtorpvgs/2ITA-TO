@@ -324,3 +324,20 @@ input[type=submit] {
     background-color: #5865F2 !important;
     color: #ffffff;
 }
+
+#credits {
+    position: fixed;
+    top: 9%;
+    right: 2%;
+    text-align: center;
+}
+
+#etimg {
+    width: 400px;
+    height: 500px;
+}
+
+.image-et {
+    text-align: center;
+    padding: 30px;
+}

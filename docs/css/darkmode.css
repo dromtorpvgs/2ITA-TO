@@ -267,12 +267,19 @@ input[type=submit] {
     color: #ffffff;
 }
 
-.char {
+#credits {
     position: fixed;
-    right: -100%;
-    transition: right 2s;
+    top: 9%;
+    right: 2%;
+    text-align: center;
 }
 
-.char.move {
-    right: 0;
+#etimg {
+    width: 400px;
+    height: 500px;
+}
+
+.image-et {
+    text-align: center;
+    padding: 30px;
 }
