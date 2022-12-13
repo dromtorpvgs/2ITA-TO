@@ -282,3 +282,16 @@ input[type=submit] {
     top: 8%;
     right: 2%;
 }
+
+#et {
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#image-et {
+    width: 400px;
+    margin: 20px;
+    height: 500px;
+}
