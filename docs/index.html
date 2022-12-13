@@ -54,8 +54,8 @@
         </div>
 
         <div class="elev" id="peder">
-            <div class="image-holder">
-                <img src="images/peder/peder0.svg" alt="Bilde av Peder" id="pdimg">
+            <div class="image-holder" onclick="pd()">
+                <img src="images/peder/peder4.svg" alt="Bilde av Peder" id="pdimg">
                 <figcaption>Peder Vatn Austad - 2ITA</figcaption>
             </div>
             <div class="project-intro" style="flex-direction: column;">
@@ -65,6 +65,9 @@
             <script>
                 console.log('%cVelkomen til console!', 'background-image: linear-gradient(to right, red,orange,yellow); color: #ffffff; -webkit-text-stroke: 0.2vh #000000; font-size: 5vh;');
                 document.getElementById('pdimg').outerHTML = '<img src="images/peder/peder' + Math.floor(Math.random() * 5) + '.svg" alt="Bilde av Peder" id="pdimg">';
+                function pd() {
+                    document.getElementById('pdimg').outerHTML = '<img src="images/peder/peder' + Math.floor(Math.random() * 5) + '.svg" alt="Bilde av Peder" id="pdimg">';
+                }
             </script>
         </div>
 
@@ -88,10 +91,18 @@
         <div class="elev" id="hossen">
             <div class="image-holder">
                 <img src="images/Hossne_er_grov_skole.jpg" alt="Bilde av Hossen">
-                <figcaption>Hossen Hansen - 2ITA</figcaption>
+                <figcaption>Hossen Hansen/Bataev/Andrew Tate/Walter White - 2ITA</figcaption>
             </div>
             <div class="project-intro">
-                lager en heste bilde side som man kan bruke til forskjellige oppgaver hvis behov.
+                
+                <h1> Heste Side her <h1>
+                
+                
+                Fokuserer på Livet og koding/programmering er veien videre i livet. Snart Millionær og snart er jeg i Dubai.
+                    Navn: Hossen
+                    Bedrift: Hypedmedia.no
+                    Alder: 17/18
+                lager en heste bilde side som man kan bruke til forskjellige oppgaver hvis behov. Du har også en liten test for å se om du kan litt om hester.
             </div>
         </div>
 
