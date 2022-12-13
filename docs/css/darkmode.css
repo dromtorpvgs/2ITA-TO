@@ -25,9 +25,9 @@ body {
 }
 
 .image-holder {
-    width: 40%;
+    width: 50%;
     text-align: center;
-    padding: 15px;
+    padding: 30px;
 }
 
 .image-holder img {
@@ -121,10 +121,10 @@ label:active .bar {
     box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.322);
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
 #casper {
     margin: 100px 0 0 0;
-    font-family: "Comic Neue", cursive;
+    font-family: 'Comic Neue', cursive;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -150,11 +150,11 @@ label:active .bar {
 
 #casper-border:before,
 #casper-border:after {
-    content: "";
+    content: '';
     position: absolute;
     left: -2px;
     top: -2px;
-    background: linear-gradient( 45deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000);
+    background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000);
     background-size: 400%;
     width: calc(100% + 4px);
     height: calc(100% + 4px);
@@ -218,13 +218,13 @@ input {
     font-size: 16px;
 }
 
-input[type="text"] {
+input[type=text] {
     background-color: #282b30;
     width: 90%;
     color: white;
 }
 
-input[type="submit"] {
+input[type=submit] {
     background-color: DodgerBlue;
     color: #fff;
     cursor: pointer;
@@ -263,7 +263,7 @@ input[type="submit"] {
 /*when navigating through the items using the arrow keys:*/
 
 .autocomplete-active {
-    background-color: #5865f2 !important;
+    background-color: #5865F2 !important;
     color: #ffffff;
 }
 
@@ -275,54 +275,4 @@ input[type="submit"] {
 
 .char.move {
     right: 0;
-}
-
-.project-desc {
-    font-family: Arial;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    user-select: none;
-}
-
-.project-desc p {
-    text-align: center;
-    font-size: 2rem;
-}
-
-.project-desc a {
-    text-decoration: none;
-    border-radius: 24px;
-    padding: 12px;
-    background-color: rgb(117, 117, 117);
-    color: #fff;
-    transition: background-color 0.5s;
-}
-
-.project-desc a:hover {
-    background-color: rgb(73, 73, 73);
-}
-
-figcaption {
-    font-size: 1.5rem;
-}
-
-#trygve .project-intro {
-    background-color: rgb(54, 54, 54);
-    border-radius: 12px;
-    color: #fff;
-}
-
-#et {
-    margin: 1%;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-
-#image-et {
-    width: 400px;
-    margin: 20px;
-    height: 500px;
 }
