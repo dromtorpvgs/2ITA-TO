@@ -4,6 +4,12 @@ body {
     overflow-x: hidden;
 }
 
+#switch-title {
+    position: fixed;
+    top: 8%;
+    right: 2%;
+}
+
 #flex-container {
     display: flex;
     flex-direction: column;
