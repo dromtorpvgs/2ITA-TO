@@ -5,9 +5,9 @@ body {
 }
 
 #switch-title {
-    position: fixed;
-    top: 8%;
-    right: 2%;
+	position: fixed;
+	top: 8%;
+	right: 2%;
 }
 
 #flex-container {

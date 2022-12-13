@@ -290,3 +290,36 @@ input[type="submit"] {
 .char.move {
 	right: 0;
 }
+
+.project-desc {
+	font-family: Arial;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	user-select: none;
+}
+.project-desc p {
+	text-align: center;
+	font-size: 2rem;
+}
+.project-desc a {
+	text-decoration: none;
+	border-radius: 24px;
+	padding: 12px;
+	background-color: rgb(117, 117, 117);
+	color: #fff;
+	transition: background-color 0.5s;
+}
+.project-desc a:hover {
+	background-color: rgb(73, 73, 73);
+}
+figcaption {
+	font-size: 1.5rem;
+}
+
+#trygve .project-intro {
+	background-color: rgb(54, 54, 54);
+	border-radius: 12px;
+	color: #fff;
+}
