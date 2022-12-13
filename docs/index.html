@@ -15,9 +15,9 @@
         <div class="container">
             <input type="checkbox" name="" id="switch" onclick="toggleTheme()">
             <label for="switch">
-              <div class="switch">
-                <div class="bar"></div>
-              </div>
+                <div class="switch">
+                    <div class="bar"></div>
+                </div>
             </label>
         </div>
         <p id="switch-title">Dark Mode - Elliot<br>& Pdr</p>
@@ -30,7 +30,23 @@
                 <input type="submit" value="Søk">
             </form>
         </div>
-        <!--search er laget av sigve :)-->
+
+        <div class="elev" id="trygve">
+            <div class="image-holder">
+                <img src="images/trygve.png" alt="Keeg trygve">
+                <figcaption>Trygve "Sværing" Melvold</figcaption>
+            </div>
+            <div class="project-intro">
+                <div class="project-desc">
+                    <p>Handle</p>
+                    <p>Utvikler av Hanlde. En digital handleliste som lett lar deg holde styr på
+                        pengene dine og hva du har råd
+                        til.</p>
+                    <a href="http://handlewebapp.web.app/" target="_blank">Sjekk ut appen her! (Må åpnes på mobil)</a>
+                </div>
+
+            </div>
+        </div>
 
         <div class="elev" id="zander">
             <div class="image-holder">
@@ -38,7 +54,9 @@
                 <figcaption>Zander Øyjordet Christensen - 2ITA</figcaption>
             </div>
             <div class="project-intro">
-                Lager et veldig enkelt spill hvor du får opp et bilde og flere ord. Du drar det riktige ordet over bilde for å komme videre og få poeng. Målet er å få så mange poeng som mulig! Jo flere riktige du får på rad, jo mer poeng tjener du opp!
+                Lager et veldig enkelt spill hvor du får opp et bilde og flere ord. Du drar det riktige ordet over bilde
+                for å komme videre og få poeng. Målet er å få så mange poeng som mulig! Jo flere riktige du får på rad,
+                jo mer poeng tjener du opp!
             </div>
         </div>
 
@@ -49,22 +67,28 @@
             </div>
             <div class="project-intro" style="flex-direction: column;">
                 Lager et geografi spill hvor man får poeng av å gjette riktig land på et kart.
-                <a href="https://2derp4you.itch.io/geography-game" style="font-size: 5vh; color: #32CD32; font-family: 'Minecraft', sans-serif;">Spill det her</a>
+                <a href="https://2derp4you.itch.io/geography-game"
+                    style="font-size: 5vh; color: #32CD32; font-family: 'Minecraft', sans-serif;">Spill det her</a>
             </div>
         </div>
 
         <div class="elev" id="peder">
-            <div class="image-holder">
-                <img src="images/peder/peder0.svg" alt="Bilde av Peder" id="pdimg">
+            <div class="image-holder" onclick="pd()">
+                <img src="images/peder/peder4.svg" alt="Bilde av Peder" id="pdimg">
                 <figcaption>Peder Vatn Austad - 2ITA</figcaption>
             </div>
             <div class="project-intro" style="flex-direction: column;">
-                Jeg har laget et sant eller usant spill... ja det er det...<br> Det er en modus for å lære og en for å spille. På læremodusen så får du fakta etter hvært spørsmål. og spillsiden så går det på tid.
-                <a href="https://feilinfo.pigw.in/" style="font-size: 5vh; color: #32CD32; font-family: 'Minecraft', sans-serif;">spill det her!</a>
+                Jeg har laget et sant eller usant spill... ja det er det...<br> Det er en modus for å lære og en for å
+                spille. På læremodusen så får du fakta etter hvært spørsmål. og spillsiden så går det på tid.
+                <a href="https://feilinfo.pigw.in/"
+                    style="font-size: 5vh; color: #32CD32; font-family: 'Minecraft', sans-serif;">spill det her!</a>
             </div>
             <script>
                 console.log('%cVelkomen til console!', 'background-image: linear-gradient(to right, red,orange,yellow); color: #ffffff; -webkit-text-stroke: 0.2vh #000000; font-size: 5vh;');
                 document.getElementById('pdimg').outerHTML = '<img src="images/peder/peder' + Math.floor(Math.random() * 5) + '.svg" alt="Bilde av Peder" id="pdimg">';
+                function pd() {
+                    document.getElementById('pdimg').outerHTML = '<img src="images/peder/peder' + Math.floor(Math.random() * 5) + '.svg" alt="Bilde av Peder" id="pdimg">';
+                }
             </script>
         </div>
 
@@ -73,25 +97,104 @@
                 <img src="images/elliot.jpeg" alt="Bilde av Elliot" id="image-et">
                 <figcaption>Elliot Strand Aaen - 2ITA</figcaption>
             </div>
+<<<<<<< HEAD
             <div class="fontColor" id="imager-et">
                 <img src="images/tobias.jpeg" alt="Bilde av Tobias" id="image-et">
-                <figcaption>Tobias Roger Hammer - 2ITA</figcaption>
-            </div>
+=======
             <div class="project-intro fontColor">
-                <center>.•°-------------------------✿-------------------------°•.<br><br>Lager et quiz spill.<br>Målet med spillet er å lære enkle engelske ord!<br><br>I spillet får brukeren et bilde og fire svaralternativer.<br>Alle svarene er på engelsk.<br><br>°•.-------------------------✿-------------------------.•°</center><br><br>
-                <a href="https://ellipog.github.io/TO_project/index.html" target="_blank" style="font-size: 3rem;">Spill her nå!</a>
+                <center>.•°-------------------------✿-------------------------°•.<br><br>Lager et quiz spill.<br>Målet
+                    med spillet er å lære enkle engelske ord!<br><br>I spillet får brukeren et bilde og fire
+                    svaralternativer.<br>Alle svarene er på
+                    engelsk.<br><br>°•.-------------------------✿-------------------------.•°</center><br><br>
+                <a href="https://ellipog.github.io/TO_project/index.html" target="_blank" style="font-size: 3rem;">Spill
+                    her nå!</a>
             </div>
         </div>
         <div class="elev" id="tobias">
+            <div class="image-holder fontColor">
+                <img src="images/tobias.jpeg" alt="Bilde av Tobias">
+>>>>>>> 4bb8f3122b6a5280752ccc562d8fea607ca91bb5
+                <figcaption>Tobias Roger Hammer - 2ITA</figcaption>
+            </div>
+            <div class="project-intro fontColor">
+                <center>.•°-------------------------✿-------------------------°•.<br><br>Lager et quiz spill.<br>Målet
+                    med spillet er å lære enkle engelske ord!<br><br>I spillet får brukeren et bilde og fire
+                    svaralternativer.<br>Alle svarene er på
+                    engelsk.<br><br>°•.-------------------------✿-------------------------.•°</center><br><br>
+                <a href="https://ellipog.github.io/TO_project/index.html" target="_blank" style="font-size: 3rem;">Spill
+                    her nå!</a>
+            </div>
+        </div>
+
+        <div id="box">
+            <div id="demo">
+                <div id="next">
+                    <p id="nextText"></p>
+                    <button id="nextAnswers" class="answer" onclick="nextAnswers();">Neste spørsmål</button>
+                </div>
+                <div id="blur">
+                    <div id="box3">
+                        <div id="box4">
+                            <div id="header">
+                                <div id="progressbarBorder">
+                                    <div id="status"></div>
+                                    <div id="redStatus"></div>
+                                </div>
+                            </div>
+                            <div id="statusText"> 0 / 10 </div>
+                        </div>
+                        <div id="box2">
+                            <div id="blurmini">
+                                <div id="question">
+                                    <h1>Hva heter dette?</h1>
+                                    <div id="picture">
+                                        <img src="images/banana.png" class="fruitIMG" id="image" alt="banana">
+                                    </div>
+                                </div>
+                                <button id="hint" class="answer" onclick="hint();">Vis hint</button>
+                            </div>
+
+                            <div id="blurmini2">
+                                <div id="answers">
+                                    <button id="answer1" class="answer" onclick="answer(0);"></button>
+                                    <button id="answer2" class="answer" onclick="answer(1);"></button>
+                                    <button id="answer3" class="answer" onclick="answer(2);"></button>
+                                    <button id="answer4" class="answer" onclick="answer(3);"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="final">
+                    <div id="mainMenuF" class="answer" onclick="window.location='index.html';"> Hoved meny </div>
+                    <div id="end">Gratulerer! Du er ferdig med quizzen! <br>
+                    </div>
+                    <div id="results">Du fikk <br> <span class="cor">0</span> riktig<br> <span class="wrong">0</span>
+                        feil
+                    </div>
+                    <div id="retake" onclick="window.location='levelone.html';"> <img src="images/reload.png"
+                            height="100px"> </div>
+                </div>
+            </div>
         </div>
 
         <div class="elev" id="hossen">
             <div class="image-holder">
                 <img src="images/Hossne_er_grov_skole.jpg" alt="Bilde av Hossen">
-                <figcaption>Hossen Hansen - 2ITA</figcaption>
+                <figcaption>Hossen Hansen/Bataev/Andrew Tate/Walter White - 2ITA</figcaption>
             </div>
             <div class="project-intro">
-                lager en heste bilde side som man kan bruke til forskjellige oppgaver hvis behov.
+
+                <h1> Heste Side her <h1>
+
+
+                        Fokuserer på Livet og koding/programmering er veien videre i livet. Snart Millionær og snart er
+                        jeg i Dubai.
+                        Navn: Hossen
+                        Bedrift: Hypedmedia.no
+                        Alder: 17/18
+                        lager en heste bilde side som man kan bruke til forskjellige oppgaver hvis behov. Du har også en
+                        liten test for å se om du kan litt om hester.
             </div>
         </div>
 
@@ -111,8 +214,11 @@
                 <figcaption>Mathias Aasbakken - 2ITA</figcaption>
             </div>
             <div class="project-intro fontColor">
-                <center>.•°-------------------------✿-------------------------°•.<br><br>Lager et byggespill, en versjon av tetris. Dette spillet er laget i Scratch.<br>Målet med spillet er å oppnå så høy score så mulig ved å plassere så mange brikker du kan
-                    uten at den går helt opp til taket <br><br> da er du ute av spillet og må spille på nytt.<br><br> Lykke til!<br><br>°•.-------------------------✿-------------------------.•°</center><br><br>
+                <center>.•°-------------------------✿-------------------------°•.<br><br>Lager et byggespill, en versjon
+                    av tetris. Dette spillet er laget i Scratch.<br>Målet med spillet er å oppnå så høy score så mulig
+                    ved å plassere så mange brikker du kan
+                    uten at den går helt opp til taket <br><br> da er du ute av spillet og må spille på nytt.<br><br>
+                    Lykke til!<br><br>°•.-------------------------✿-------------------------.•°</center><br><br>
             </div>
         </div>
 
@@ -122,7 +228,8 @@
                 <figcaption>Marcus Knutsen - 2ITA</figcaption>
             </div>
             <div class="project-intro">
-                Lager en versjon av tetris. Follow me on https://scratch.mit.edu/users/snakeMax/ and play my new AAA release KUNG FU MANDAG! dududududu bom pow badududu. Shout out to my ninja Dj Khaled "Hey we da best!"
+                Lager en versjon av tetris. Follow me on https://scratch.mit.edu/users/snakeMax/ and play my new AAA
+                release KUNG FU MANDAG! dududududu bom pow badududu. Shout out to my ninja Dj Khaled "Hey we da best!"
             </div>
         </div>
 
@@ -144,14 +251,22 @@
             <div class="image-holder">
                 <div id="casper-border">
                     <img src="images/casper.png" alt="Bilde av Casper">
-                    <figcaption style="font-size: 15px;">Casper Sungho Monstad - 2ITA</figcaption>
+                    <figcaption style="font-size: 1.2em;">Casper Sungho Monstad - 2ITA</figcaption>
                 </div>
             </div>
             <div class="project-intro">
+<<<<<<< HEAD
                 <p style="font-size: 20px;">
                     Har laget en nettleserbasert skrivetest eller skriveøvelse. Det er bare å trykke: "PLAY NOW!"<br><br> PS: du kan endre språket til norsk i "Language", hvis du er usikker på hva ting betyr, men vit at testen bare fungerer på engelsk.
+=======
+                <p style="font-size: 1.5em;">
+                    Har laget en nettleserbasert skrivetest eller skriveøvelse. Det er bare å trykke: " PLAY NOW!"<br>
+                    <br> PS: du kan endre språket til norsk i "Language", hvis du er usikker på hva ting betyr, men vit
+                    at testen bare fungerer på engelsk.
+>>>>>>> 4bb8f3122b6a5280752ccc562d8fea607ca91bb5
                 </p>
-                <a id="casper-spill" href="https://frumentummc.github.io/TypingPractice/"><img src="images/play_button.gif" alt="Start spill"></a>
+                <a id="casper-spill" href="https://frumentummc.github.io/TypingPractice/"><img
+                        src="images/play_button.gif" alt="Start spill"></a>
             </div>
         </div>
 
