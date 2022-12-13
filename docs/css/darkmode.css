@@ -161,6 +161,20 @@ label:active .bar {
     z-index: -1;
     animation: steam 20s linear infinite;
 }
+#kj_p {
+	font-size: 22px;
+}
+#downlodlink_kj{
+	font-size: 22px;
+	font-family: 'Minecraft', sans-serif;
+	  font-size: 5vh;
+  color: #32CD32;
+}
+#kj-pi{
+	display:flex;
+	flex-direction: column;
+}
+
 
 @keyframes steam {
     0% {

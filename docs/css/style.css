@@ -254,6 +254,20 @@ label:active .bar {
     width: 50%;
     height: auto;
 }
+#kj_p {
+	font-size: 22px;
+}
+#downlodlink_kj{
+	font-size: 22px;
+	font-family: 'Minecraft', sans-serif;
+	  font-size: 5vh;
+  color: #32CD32;
+}
+#kj-pi{
+	display:flex;
+	flex-direction: column;
+}
+
 
 #search {
     display: flex;
