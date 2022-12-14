@@ -163,7 +163,7 @@ input[type="checkbox"] + label .bar {
 	height: 40px;
 	width: 40px;
 	border-radius: 50px;
-	transition: transform 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 input[type="checkbox"]:checked + label .bar {

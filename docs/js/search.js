@@ -1,12 +1,12 @@
 function søk() {
   scrollToElement(document.getElementById("myInput").value);
+  scrollToElement(document.getElementById("myInput").value);
 }
 
 function scrollToElement(elementID) {
   var element = document.getElementById(elementID.toLowerCase());
   element.scrollIntoView({ behavior: "smooth" });
 }
-
 function autocomplete(inp, arr) {
   /*the autocomplete function takes two arguments,
   the text field element and an array of possible autocompleted values:*/
@@ -105,7 +105,7 @@ function autocomplete(inp, arr) {
 }
 
 /*An array containing all the country names in the world:*/
-var countries = ["Zander", "Sigve", "Peder", "Elliot", "Tobias", "Hossen", "Alexander", "Mathias", "Marcus", "Redin", "Casper", "Trygve-og-Patchaya"];
+var countries = ["Zander", "Sigve", "Peder", "Elliot", "Tobias", "Hossen", "Alexander", "Mathias", "Marcus", "Redin", "Casper"];
 
 /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
 autocomplete(document.getElementById("myInput"), countries);
