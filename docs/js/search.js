@@ -111,6 +111,7 @@ function autocomplete(inp, arr) {
     document.addEventListener("click", function(e) {
         closeAllLists(e.target);
     });
+  }
 
 /*An array containing all the country names in the world:*/
 var countries = [
