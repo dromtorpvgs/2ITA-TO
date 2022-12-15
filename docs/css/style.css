@@ -355,3 +355,14 @@ input[type=submit] {
     text-align: center;
     padding: 30px;
 }
+
+#list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.listElem {
+    font-size: 1.4rem;
+}

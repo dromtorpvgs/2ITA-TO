@@ -105,7 +105,7 @@ function autocomplete(inp, arr) {
   }
   
   /*An array containing all the country names in the world:*/
-  var countries = ["Zander", "Sigve", "Peder", "Elliot", "Tobias", "Hossen", "Alexander", "Mathias", "Marcus", "Redin", "Casper"];
+  var countries = ["Zander", "Sigve", "Peder", "Elliot", "Tobias", "Hossen", "Alexander", "Mathias", "Marcus", "Redin", "Casper", "Krzysztof"];
   
   /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
   autocomplete(document.getElementById("myInput"), countries);
