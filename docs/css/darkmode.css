@@ -368,5 +368,6 @@ input[type="submit"] {
 }
 
 .listElem:hover {
+    font-size: 1.4rem;
     color: lightgray;
 }
