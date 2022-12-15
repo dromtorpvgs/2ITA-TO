@@ -1,8 +1,9 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: "Poppins", sans-serif;
 }
+
+body {font-family: "Poppins", sans-serif;}
 
 .container {
 	width: 100vw;
@@ -111,4 +112,90 @@
 	text-decoration: none;
 	color: white;
 	margin: 1em 0 0 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap");
+
+#casper {
+	padding: 50px 0;
+	width: 100%;
+	font-family: "Comic Neue", cursive;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#casper-border {
+	margin-left: 10%;
+	position: relative;
+	padding: 10px 10px 30px 10px;
+  width: 50%;
+  height: 100%;
+	z-index: 1;
+  }
+
+  #casper .elev-bilde img {
+	width: 100%;
+	height: auto;
+  }
+
+  #casper-border:before,
+#casper-border:after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(
+    45deg,
+    #fb0094,
+    #0000ff,
+    #00ff00,
+    #ffff00,
+    #ff0000,
+    #fb0094,
+    #0000ff,
+    #00ff00,
+    #ffff00,
+    #ff0000
+  );
+  background-size: 400%;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  z-index: -1;
+  animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+#casper-border:after {
+  filter: blur(50px);
+}
+
+#casper p {
+  color: #afafa7;
+  padding: 5px;
+  box-shadow: rgba(46, 240, 159, 0.3) -5px 5px, rgba(46, 240, 133, 0.2) -7px 7px,
+    rgba(46, 240, 149, 0.1) -10px 10px, rgba(46, 240, 182, 0.05) -14px 14px;
+}
+
+#casper-spill {
+  display: flex;
+  justify-content: center;
+}
+
+#casper-spill img {
+  box-shadow: rgba(107, 240, 46, 0.4) 5px 5px, rgba(107, 240, 46, 0.3) 10px 10px,
+    rgba(107, 240, 46, 0.2) 15px 15px, rgba(91, 240, 46, 0.1) 20px 20px;
+  padding: 5px;
+  margin-top: 50px;
 }
