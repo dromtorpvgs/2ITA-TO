@@ -14,11 +14,7 @@
     <div id="flex-container">
         <div id="header">2ITA - TO prosjekt</div>
         <div class="container">
-            <input type="checkbox" name="" id="switch" onclick="toggleTheme()">
-            <label for="switch">
-              <div class="switch">
-                <div class="bar"></div>
-              </div>
+            <img src="images/dark.png" width="120px" id="switch" onclick="toggleTheme()">
             </label>
         </div>
         <div id="credits">Dark Mode - Elliot <br> & Peder</div>
@@ -30,6 +26,7 @@
                 </div>
                 <input type="submit" value="Søk">
             </form>
+            <input type="submit" id="best" value="Tilfeldig" onclick="tilfeldig()">
         </div>
         <center><p style="font-size: 0.8rem;">Powered by Sigve</p></center>
 
@@ -94,17 +91,24 @@
         </div>
 
         <div class="elev" id="peder">
-            <div class="image-holder">
-                <img src="images/peder/peder0.svg" alt="Bilde av Peder" id="pdimg">
+            <div class="image-holder" onclick="pd()">
+                <img src="images/peder/peder4.svg" alt="Bilde av Peder" id="pdimg">
                 <figcaption>Peder Vatn Austad - 2ITA</figcaption>
             </div>
             <div class="project-intro" style="flex-direction: column;">
-                Jeg har laget et sant eller usant spill... ja det er det...<br> Det er en modus for å lære og en for å spille. På læremodusen så får du fakta etter hvært spørsmål. og spillsiden så går det på tid.
+                <center>.•°-------------------------✿-------------------------°•.
+                    <br><br> Jeg har laget et sant eller usant spill... ja det er det...<br> Det er en modus for å lære og en for å spille.<br> På læremodusen så får du fakta etter hvært spørsmål.<br> Og spillsiden så går det på tid.
+                    <br><br> °•.-------------------------✿-------------------------.•°
+                </center><br><br>
                 <a href="https://feilinfo.pigw.in/" style="font-size: 5vh; color: #32CD32; font-family: 'Minecraft', sans-serif;">spill det her!</a>
             </div>
             <script>
                 console.log('%cVelkomen til console!', 'background-image: linear-gradient(to right, red,orange,yellow); color: #ffffff; -webkit-text-stroke: 0.2vh #000000; font-size: 5vh;');
-                document.getElementById('pdimg').outerHTML = '<img src="images/peder/peder' + Math.floor(Math.random() * 5) + '.svg" alt="Bilde av Peder" id="pdimg">';
+                document.getElementById('pdimg').outerHTML = '<img src="images/peder/peder' + Math.floor(Math.random() * 10) + '.svg" alt="Bilde av Peder" id="pdimg">';
+
+                function pd() {
+                    document.getElementById('pdimg').outerHTML = '<img src="images/peder/peder' + Math.floor(Math.random() * 10) + '.svg" alt="Bilde av Peder" id="pdimg">';
+                }
             </script>
         </div>
 
@@ -113,23 +117,61 @@
                 <img src="images/elliot.jpeg" alt="Bilde av Elliot" id="etimg" width="400px" height="500px">
                 <figcaption>Elliot Strand Aaen - 2ITA</figcaption>
             </div>
-            <div class="image-et fontColor">
+            <div class="image-et fontColor" id="tobias">
                 <img src="images/tobias.jpeg" alt="Bilde av Tobias" id="etimg" width="400px" height="500px">
                 <figcaption>Tobias Roger Hammer - 2ITA</figcaption>
             </div>
             <div class="project-intro fontColor">
-                <center>.•°-------------------------✿-------------------------°•.<br><br>Lager et quiz spill.<br>Målet med spillet er å lære enkle engelske ord!<br><br>I spillet får brukeren et bilde og fire svaralternativer.<br>Alle svarene er på engelsk.<br><br>°•.-------------------------✿-------------------------.•°</center><br><br>
-                <a href="https://ellipog.github.io/TO_project/index.html" target="_blank" style="font-size: 3rem;">Spill her nå!</a>
+                <center>.•°-------------------------✿-------------------------°•.<br><br>Lager et quiz spill.<br>Målet med spillet er å lære enkle engelske ord!<br><br>I spillet får brukeren et bilde og fire svaralternativer.
+                    <br>Alle svarene er på engelsk.
+                    <br><br>°•.-------------------------✿-------------------------.•°</center><br><br>
+                <a href="https://ellipog.github.io/TO_project/index.html" target="_blank" style="font-size: 3rem;">Spill
+                    her nå!</a>
             </div>
         </div>
 
         <div class="elev" id="hossen">
             <div class="image-holder">
-                <img src="images/Hossne_er_grov_skole.jpg" alt="Bilde av Hossen">
-                <figcaption>Hossen Hansen - 2ITA</figcaption>
+                <img src="images/Hossenerstor.jpg" alt="Bilde av Hossen">
+                <figcaption>Hossen Hansen/Bataev/Andrew Tate - 2ITA</figcaption>
             </div>
             <div class="project-intro">
-                lager en heste bilde side som man kan bruke til forskjellige oppgaver hvis behov.
+
+                <p>
+<<<<<<< Updated upstream
+                    Hei! Jeg heter Hossen og er snart millionær. Tenker på framtiden og jeg får 6 i alle fag HIHI. Det jeg har lagd er en heste side med hestebilde generator som du kan bruke til forskjellige oppgaver og en heste quiz som gir deg et godt svar på hvor du ligger
+                    når det kommer til informasjon om hester. Om du har lyst til å bli millionær som meg selvom jeg ikke er det enda, men snart så er det bare å finne meg på Drømtorp VGS Navn: Hossen født: 2005 Status: Snart millionær og i dubai Time,
+                    Money, Location Bedrift: Hypedmedia.no Hjelper bedrifter med facebook Ads
+
+=======
+                    Hei! Jeg heter Hossen og er snart millionær. Tenker på framtiden og jeg får 6 i alle fag HIHI.
+
+                    Det jeg har lagd er en heste side med hestebilde generator som du kan bruke til forskjellige oppgaver og en heste quiz som gir deg et godt svar på hvor du ligger når det kommer til informasjon om hester.
+
+                    Om du har lyst til å bli millionær som meg selvom jeg ikke er det enda, men snart så er det bare å finne meg på Drømtorp VGS
+
+
+
+                    
+
+                    <br>
+                         Navn: Hossen
+                        født: 2005
+                         Status: Snart millionær og i dubai
+                         Time, Money, Location
+                        Bedrift: Hypedmedia.no Hjelper bedrifter med facebook Ads
+                     </br>
+>>>>>>> Stashed changes
+
+
+
+
+
+                </p>
+
+
+
+
             </div>
         </div>
 
@@ -138,8 +180,9 @@
                 <img src="images/alexerkul.png" alt="Bilde av Alex">
                 <figcaption>Alexander Andreassen - 2ITA</figcaption>
             </div>
-            <div class="project-intro">
-                Lager et Quiz spill lmao.
+            <div class="project-intro" style="flex-direction: column;">
+                Lager en matte quiz om forskjellige matteoppgaver.
+                <a href="https://react-game-kfm.web.app/" style="font-size: 5vh; color: #32CD32; font-family: 'Minecraft', sans-serif;">Spill det her</a>
             </div>
         </div>
 
@@ -159,8 +202,10 @@
                 <img src="images/Marcus.webp" alt="Bilde av Femboy">
                 <figcaption>Marcus Knutsen - 2ITA</figcaption>
             </div>
-            <div class="project-intro">
-                Lager en versjon av tetris. Follow me on https://scratch.mit.edu/users/snakeMax/ and play my new AAA release KUNG FU MANDAG! dududududu bom pow badududu. Shout out to my ninja Dj Khaled "Hey we da best!"
+            <div class="project-intro" style="flex-direction: column;">
+                Lager en versjon av tetris. Follow me on and play my new AAA release KUNG FU MANDAG! dududududu bom pow badududu. Shout out to my ninja Dj Khaled "Hey we da best!"
+
+                <a href="https://scratch.mit.edu/projects/761969729/">https://scratch.mit.edu/users/snakeMax/</a>
             </div>
         </div>
 
@@ -187,12 +232,13 @@
             </div>
             <div class="project-intro">
                 <p style="font-size: 1.5em">
-                    Har laget en nettleserbasert skrivetest eller skriveøvelse. Det er bare å trykke: "PLAY NOW!"<br><br> PS: du kan endre språket til norsk i "Language", hvis du er usikker på hva ting betyr, men vit at testen bare fungerer på engelsk.
+                    Har laget en nettleserbasert skrivetest eller skriveøvelse. Det er bare å trykke: "PLAY NOW!"
+                    <br><br> PS: du kan endre språket til norsk i "Language", hvis du er usikker på hva ting betyr, men vit at testen bare fungerer på engelsk.
                 </p>
                 <a id="casper-spill" href="https://frumentummc.github.io/TypingPractice/"><img src="images/play_button.gif" alt="Start spill"></a>
             </div>
         </div>
-		<div class="elev" id="krzysztof">
+        <div class="elev" id="krzysztof">
             <div class="image-holder">
                 <img src="images/fumo.jpg" alt="fumo bilde">
                 <figcaption>Krzysztof Jalowiec - 2ITA</figcaption>
@@ -201,8 +247,38 @@
                 <p id="kj_p">Jeg lager et spill hvor du fyller ut navn av land på et kart av europa.</p><a id="downlodlink_kj" href=https://drive.google.com/drive/u/0/folders/1tORHr9RXN7BGSp9x_trBrHJ9vK5CAZ-n target="_blank">Last ned her</a>
             </div>
         </div>
-		
-		
+        <div class="elev" id="trygve" style="display: flex; align-items: center; justify-content: cente; user-select: none;">
+            <div id="patchaya" style="display: flex; background-color: #ffaaab; border-radius: 12px; width: 98%; height: 373px;">
+                <div class="fontColor" style="text-align: center; padding: 30px;">
+                    <div style="box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;width: 300px; height: 290px; overflow: hidden; display:flex; align-items: center; justify-content: center; border-radius: 12px;">
+                        <img src="images/trygve.png" draggable="false" alt="Bilde av Trygve" width="300px">
+                    </div>
+                    <figcaption style="color:white; padding-top: 1.2em; text-shadow: 1px 1px black;">Trygve "Sværing" Melvold
+                    </figcaption>
+                </div>
+                <div class="fontColor" style="text-align: center; padding: 30px;">
+                    <div style="box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;width: 300px; height: 290px; overflow: hidden; display:flex; align-items: center; justify-content: center; border-radius: 12px">
+                        <img src="images/patchaya.png" draggable="false" alt="Bilde av Patchaya" width="300px">
+                    </div>
+                    <figcaption style="color:white; padding-top: 1.2em; text-shadow: 1px 1px black;">Patchaya Wonghathep
+                    </figcaption>
+                </div>
+                <div class="project-intro fontColor">
+                    <center>
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <img src="images/handle.png" draggable="false" alt="Bilde av Trygve" width="100px">
+                            <h1 style="color:white; text-shadow: 2px 2px black;">Handle</h1>
+                        </div>
+
+                        <h3 style="color:white; text-shadow: 1px 1px black;">En app som digitaliserer handleturen! Lag en handleliste rett på mobilen. Sett opp et budsjett og kryss av matvarer mens du handler dem. Vi gjør den harde jobben og regner ut hvor mye penger du har igjen!</h3>
+                    </center><br><br>
+                    <a href="http://handlewebapp.web.app" target="_blank" style="font-size: 2rem; color:white;  text-shadow: 2px 2px black;">Sjekk
+                        ut appen her! <span style="font-size: 1rem">(Åpne på mobil)</span></a>
+                </div>
+            </div>
+        </div>
+
+
         <div id="footer"></div>
     </div>
     <script src="js/script.js"></script>
