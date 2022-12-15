@@ -16,14 +16,17 @@
 
 .container-header {
 	padding: 10vh 0 10vh 0;
+	font-size: 2.5em;
 }
 
 .container-nav {
+	margin: 1em;
 	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
+
 .container-nav ul {
 	width: 80%;
 	list-style: none;
@@ -49,6 +52,7 @@
 	justify-content: center;
 	flex-direction: column;
 }
+
 .elev {
 	width: 80%;
 	height: 400px;
@@ -56,10 +60,9 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-wrap: wrap;
-	flex-direction: row;
 	margin-bottom: 5em;
 }
+
 .elev-bilde {
 	width: 33%;
 	height: 100%;
@@ -67,22 +70,33 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	margin-bottom: 1em;
 }
 .elev-bilde-to {
-	width: 33%;
+	width: 35%;
 	height: 100%;
 	display: flex;
 }
+
 .elev-bilde img {
 	height: 90%;
+	margin-bottom: 1em;
 }
+
 .bilde-to {
-	width: 50%;
-	height: 100%;
-}
-.bilde-to img {
+	display: flex;
+	flex-direction: column;
 	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
 }
+
+.bilde-to img {
+	width: 80%;
+	margin-bottom: 1em;
+}
+
 .elev-prosjekt {
 	width: 60%;
 	display: flex;
@@ -91,14 +105,17 @@
 	flex-direction: column;
 	height: 100%;
 }
+
 .elev-prosjekt h2 {
 	margin-bottom: 1em;
 }
+
 .elev-prosjekt p {
 	width: 80%;
 	font-size: 1.25em;
 	text-align: center;
 }
+
 .elev-link {
 	width: 200px;
 	height: 65px;
@@ -111,4 +128,35 @@
 	text-decoration: none;
 	color: white;
 	margin: 1em 0 0 0;
+}
+
+@media only screen and (max-width: 700px) {
+
+	.elev {
+		width: 100%;
+		height: 80%;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.elev-bilde {
+		width: 50%;
+	}
+
+	.elev-bilde img {
+		height: 90%;
+		width: 100%;
+		margin-bottom: 1em;
+	}
+
+	.elev-bilde-to {
+		width: 80%;
+		height: 80%;
+		display: flex;
+		margin-bottom: 1em;
+		justify-content: center;
+		align-items: center;
+	}
+
 }
