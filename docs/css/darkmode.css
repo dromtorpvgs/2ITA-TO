@@ -358,10 +358,17 @@ input[type="submit"] {
 }
 
 .image-et {
-  text-align: center;
-  padding: 30px;
+    text-align: center;
+    padding: 30px;
 }
 
-#best {
-  margin: 15px;
+#list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.listElem {
+    font-size: 1.4rem;
 }
