@@ -364,4 +364,10 @@ input[type="submit"] {
 
 .listElem {
     font-size: 1.4rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.listElem:hover {
+    font-size: 1.4rem;
+    color: lightgray;
 }
