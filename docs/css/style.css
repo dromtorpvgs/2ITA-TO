@@ -114,12 +114,12 @@ body {font-family: "Poppins", sans-serif;}
 	margin: 1em 0 0 0;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&display=swap");
 
 #casper {
 	padding: 50px 0;
 	width: 100%;
-	font-family: "Comic Neue", cursive;
+	font-family: "Roboto Mono", monospace;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
