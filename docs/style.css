@@ -155,6 +155,12 @@
 }
 
 @media only screen and (max-width: 700px) {
+	.container-header h1 {
+		font-size: 1.2em;
+	}
+	.container-nav ul {
+		width: 90%;
+	}
 	.elev {
 		width: 100%;
 		height: 80%;
@@ -162,14 +168,21 @@
 		display: flex;
 		flex-direction: column;
 	}
-
-	.elev-bilde {
-		width: 50%;
-	}
-
-	.elev-bilde img {
-		height: 90%;
+	.elev-prosjekt p {
 		width: 100%;
+	}
+	.elev-bilde {
+		width: 90%;
+	}
+	.elev-prosjekt {
+		width: 90%;
+	}
+	.elev-bilde img {
+		width: 100%;
+		margin-bottom: 1em;
+	}
+	.elev-bilde figcaption {
+		text-align: center;
 		margin-bottom: 1em;
 	}
 
@@ -180,5 +193,9 @@
 		margin-bottom: 1em;
 		justify-content: center;
 		align-items: center;
+		overflow: hidden;
+	}
+	.bilde-container-to img {
+		width: 220px;
 	}
 }
