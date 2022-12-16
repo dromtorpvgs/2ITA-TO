@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>2ITA - Spill</title>
 </head>
 
@@ -19,38 +19,41 @@
         <h3>Klikk på spillene nedenfor for å spille dem!</h3>
         <div class="container-nav">
             <ul>
-                <li class="listElem" onclick="Javascript:scrollToElement('zander')">
+                <li onclick="Javascript:scrollToElement('zander')">
                     Zander spill
                 </li>
-                <li class="listElem" onclick="Javascript:scrollToElement('sigve')">
+                <li onclick="Javascript:scrollToElement('sigve')">
                     Geography Game
                 </li>
-                <li class="listElem" onclick="Javascript:scrollToElement('peder')">
+                <li onclick="Javascript:scrollToElement('peder')">
                     feilinfo
                 </li>
-                <li class="listElem" onclick="Javascript:scrollToElement('elliot')">
+                <li onclick="Javascript:scrollToElement('elliot tobias')">
                     English Quiz
                 </li>
-                <li class="listElem" onclick="Javascript:scrollToElement('hossen')">
+                <li onclick="Javascript:scrollToElement('hossen')">
                     Heste spill
                 </li>
-                <li class="listElem" onclick="Javascript:scrollToElement('alexander')">
+                <li onclick="Javascript:scrollToElement('alexander')">
                     Matte quiz
                 </li>
-                <li class="listElem" onclick="Javascript:scrollToElement('mathias')">
+                <li onclick="Javascript:scrollToElement('mathias')">
                     Mathias spill
                 </li>
-                <li class="listElem" onclick="Javascript:scrollToElement('marcus')">
-                    Hestespill
+                <li onclick="Javascript:scrollToElement('marcus')">
+                    Tetris
                 </li>
-                <li class="listElem" onclick="Javascript:scrollToElement('redin')">
-                    Hestespill
+                <li onclick="Javascript:scrollToElement('redin')">
+                    Quiz
                 </li>
-                <li class="listElem" onclick="Javascript:scrollToElement('casper')">
+                <li onclick="Javascript:scrollToElement('casper')">
                     Skrivetest
                 </li>
-                <li class="listElem" onclick="Javascript:scrollToElement('krzysztof')">
+                <li onclick="Javascript:scrollToElement('krzysztof')">
                     Geografi spill
+                </li>
+                <li onclick="Javascript:scrollToElement('trygve patchaya')">
+                    Handle App
                 </li>
             </ul>
         </div>
@@ -58,7 +61,9 @@
         <div class="elevListe">
             <div class="elev" id="zander">
                 <div class="elev-bilde">
-                    <img src="images/zander.svg" alt="Bilde av Zander">
+                    <div class="bilde-container">
+                        <img src="images/zander.svg" alt="Bilde av Zander">
+                    </div>
                     <figcaption>Zander Øyjordet Christensen - 2ITA</figcaption>
                 </div>
                 <div class="elev-prosjekt">
@@ -78,7 +83,9 @@
 
             <div class="elev" id="sigve">
                 <div class="elev-bilde">
-                    <img src="images/sigve.png" idalt="Bilde av Sigve">
+                    <div class="bilde-container">
+                        <img src="images/sigve.png" idalt="Bilde av Sigve">
+                    </div>
                     <figcaption>Sigve Tomten</figcaption>
                 </div>
                 <div class="elev-prosjekt">
@@ -93,7 +100,9 @@
 
             <div class="elev" id="peder">
                 <div class="elev-bilde">
-                    <img src="images/peder.svg" alt="Bilde av Peder">
+                    <div class="bilde-container">
+                        <img src="images/peder.svg" alt="Bilde av Peder">
+                    </div>
                     <figcaption>Peder Vatn Austad</figcaption>
                 </div>
                 <div class="elev-prosjekt">
@@ -110,16 +119,17 @@
             <div class="elev" id="elliot tobias">
                 <div class="elev-bilde-to">
                     <div class="bilde-to">
-                        
-                        <img src="images/elliot.jpeg" alt="Bilde av Elliot">
+                        <div class="bilde-container-to">
+                            <img src="images/elliot.jpeg" alt="Bilde av Elliot">
+                        </div>
                         <figcaption>Elliot Strand Aaen</figcaption>
-                        
                     </div>
                     <div class="bilde-to">
-                        
-                        <img src="images/tobias.jpeg" alt="Bilde av Tobias">
+                        <div class="bilde-container-to">
+                            <img src="images/tobias.jpeg" alt="Bilde av Tobias">
+                        </div>
                         <figcaption>Tobias Roger Hammer</figcaption>
-                       
+
                     </div>
 
                 </div>
@@ -136,7 +146,9 @@
 
             <div class="elev" id="hossen">
                 <div class="elev-bilde">
-                    <img src="images/hossen.jpg" alt="Bilde av Hossen">
+                    <div class="bilde-container">
+                        <img src="images/hossen.jpg" alt="Bilde av Hossen">
+                    </div>
                     <figcaption>Hossen Hansen</figcaption>
                 </div>
                 <div class="elev-prosjekt">
@@ -156,7 +168,9 @@
 
             <div class="elev" id="alexander">
                 <div class="elev-bilde">
-                    <img src="images/alexerkul.png" alt="Bilde av Alex">
+                    <div class="bilde-container">
+                        <img src="images/alexerkul.png" alt="Bilde av Alex">
+                    </div>
                     <figcaption>Alexander Andreassen</figcaption>
                 </div>
                 <div class="elev-prosjekt">
@@ -171,7 +185,9 @@
 
             <div class="elev" id="mathias">
                 <div class="elev-bilde">
-                    <img src="images/Mathias.jpeg" alt="Bilde av Mathias">
+                    <div class="bilde-container">
+                        <img src="images/Mathias.jpeg" alt="Bilde av Mathias">
+                    </div>
                     <figcaption>Mathias Aasbakken</figcaption>
                 </div>
                 <div class="elev-prosjekt">
@@ -192,7 +208,9 @@
 
             <div class="elev" id="marcus">
                 <div class="elev-bilde">
-                    <img src="images/Marcus.webp" alt="Bilde av Marcus">
+                    <div class="bilde-container">
+                        <img src="images/Marcus.webp" alt="Bilde av Marcus">
+                    </div>
                     <figcaption>Marcus Knutsen</figcaption>
                 </div>
                 <div class="elev-prosjekt">
@@ -208,7 +226,9 @@
 
             <div class="elev" id="redin">
                 <div class="elev-bilde">
-                    <img src="images/Redin.png" alt="Bile av Redin">
+                    <div class="bilde-container">
+                        <img src="images/Redin.png" alt="Bile av Redin">
+                    </div>
                     <figcaption>Redin Omar</figcaption>
                 </div>
                 <div class="elev-prosjekt">
@@ -221,10 +241,12 @@
                         spillet her!</a>
                 </div>
             </div>
-            
+
             <div class="elev" id="casper">
                 <div class="elev-bilde">
-                    <img src="images/casper.png" alt="Bilde av Casper">
+                    <div class="bilde-container">
+                        <img src="images/casper.png" alt="Bilde av Casper">
+                    </div>
                     <figcaption>Casper Sungho Monstad</figcaption>
                 </div>
                 <div class="elev-prosjekt">
@@ -245,7 +267,9 @@
 
             <div class="elev" id="krzysztof">
                 <div class="elev-bilde">
-                    <img src="images/fumo.jpg" alt="Bilde av krzysztof">
+                    <div class="bilde-container">
+                        <img src="images/fumo.jpg" alt="Bilde av krzysztof">
+                    </div>
                     <figcaption>Krzysztof Jalowiec</figcaption>
                 </div>
                 <div class="elev-prosjekt">
@@ -264,13 +288,15 @@
             <div class="elev" id="trygve patchaya">
                 <div class="elev-bilde-to">
                     <div class="bilde-to">
-                        
-                        <img src="images/trygve.png" alt="Bilde av Trygve">
+                        <div class="bilde-container-to">
+                            <img src="images/trygve.png" alt="Bilde av Trygve">
+                        </div>
                         <figcaption>Trygve Melvold</figcaption>
-                        
                     </div>
                     <div class="bilde-to">
-                        <img src="images/patchaya.png" alt="Bilde av Patchaya">
+                        <div class="bilde-container-to">
+                            <img src="images/patchaya.png" alt="Bilde av Patchaya">
+                        </div>
                         <figcaption>Patchaya Wonghathep</figcaption>
                     </div>
 
@@ -289,15 +315,11 @@
                         spillet her!</a>
                 </div>
             </div>
-            
+
         </div>
 
         <div id="footer"></div>
     </div>
-    <!--<script src="js/search.js"></script>-->
-    <style>
-        @import url('https://fonts.cdnfonts.com/css/minecraft-4');
-    </style>
 </body>
 
 </html>
